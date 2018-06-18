@@ -1,0 +1,11 @@
+.banner {
+  background-image: url('../../images/background1.jpg') !important;
+  background-position: center;
+  height: 225px;
+  margin: 0 !important;
+  padding: 0 !important;
+  color: black;
+  font-size: 18px;
+  background-repeat: no-repeat;
+  background-color: lightblue;
+}

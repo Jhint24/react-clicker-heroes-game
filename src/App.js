@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import Container from './components/Container';
+import Rules from './components/Rules';
 import images from './Images';
 class App extends Component {
   state = {
@@ -101,6 +102,7 @@ class App extends Component {
           highScore={this.state.highScore}
           navMessage={this.state.intialNavMessage}
         />
+        <Rules />
         <Container heroesPictured={this.state.allHeroes} clicked={this.clickyEvent} />
       </div>
     );
